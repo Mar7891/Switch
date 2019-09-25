@@ -1,0 +1,360 @@
+body {
+	font-family: Times, Times New Roman, Georgia, serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.bg{
+	background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+}
+.burger div{
+	display: flex;
+	background-color: rgb(226,226,226);
+	margin: 5px;
+	justify-content: center;
+	text-align: center; 
+	align-items: center;
+	width: 15px;
+	height: 3px;
+	transition: all 0.3; 
+}
+header{
+	position: absolute;
+	width: 100%;
+    top: 0;
+    left: 0;
+}
+header.black{
+	position: fixed;
+	top:0;
+	right: 0;
+	left: 0;
+	background: rgba(0,0,0,.7);
+	z-index: 9999;
+}
+header nav{
+	width: 100%;
+}
+header ul{
+	list-style-type: none;
+	display: flex;
+}
+header ul li{
+	border: 5px solid transparent;
+}	
+header nav a {
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 600;
+}
+header nav a:hover{
+	color: white;
+	text-decoration: none;
+	border-top: 5px solid #28a745;
+}
+header span{
+	color: white;
+}
+.search {
+	position: relative;
+	margin: 10px; 
+	width: auto;
+}
+.search input{
+	border-radius: 15px;
+	outline: 0;
+	border: none;
+	right: 10px;
+}
+.search input:focus, .search input:hover{
+	border-radius: 15px;
+	outline: none;
+	color: gray;
+}
+.search label{
+	position: absolute;
+    top: 0;
+    right: 4%;
+    font-size: 18px;
+    pointer-events: none;
+}
+.logo{
+	font-size: 25px;
+}
+.text p{
+	font-size: 48px;
+    color: white;
+    font-weight: bold; 
+    text-align: center;
+}
+.scroll{
+	background-color: rgba(255, 255, 255, .7);
+	width: 130px;
+	height: 33px;
+	border-radius: 50px;
+	border: none;
+	outline: none;
+	justify-content: center; 
+}
+.scroll a{	
+	text-decoration: none;
+	color: black;
+}
+.scroll:hover, .scroll:focus{
+	background-color: gray;
+	border: none;
+	outline: none;
+}
+.scroll a:hover, .scroll a:focus{
+	text-decoration: none;
+	color: black;
+}
+#block2{
+	background-color: white;
+	min-height: 500px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+h2{
+	color: gray;
+	text-align: center;
+}
+hr{
+	width: 10%;
+}
+p{
+	color: gray;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.icon{
+	color: #28a745;
+	font-size: 130px;
+    background-color: #26e852;
+    width: 173px;
+    height: 172px;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
+.icon:hover{
+	background-color: #17772c;
+}
+button{
+	text-align: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+#block3{
+	background-color: #26e852;
+	min-height: 500px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+#block3 h2, #block3 p{
+	color: #218838;
+}
+.first{
+	background-color: #32a24c!important;
+	color: white!important;
+	border: none;
+	border-radius: 50% 0% 0% 50%;
+	outline: none;
+	padding: .375rem .75rem;
+}
+.first:hover, .first:focus{
+	background-color: #2e653a;
+	outline: none;
+}
+.middle{
+	height: 40px;
+}
+.middle:hover, .middle:focus{
+	outline: none;
+	background-color: gray; 
+}
+.last{
+	border-radius: 0% 50% 50% 0%;
+	outline: none;
+	color: green;
+	padding: .375rem .75rem;
+}
+.last:hover, .last:focus{
+	outline: none;
+	background-color: gray; 
+}
+
+#block4{
+	min-height: 500px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+#carouselExampleCaptions img{
+	opacity: 0!important;
+}
+
+#carouselExampleCaptions .carousel-item {
+	height: 160px;
+}
+.carousel-item{
+	height: 100%;
+}
+.carousel-control-prev,.carousel-control-next{
+	filter: drop-shadow(0 0 1px black) drop-shadow(0 0 1px black) drop-shadow(0 0 1px black)!important;
+}
+.burger{
+	display: none;
+}
+#block5{
+	text-align: center;
+	min-height: 550px;
+	justify-content: center;
+	background-color: #f2f0f1;
+	align-content: center;
+	background-position: center;
+}
+#block5 .container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+#block5 img:hover{
+	filter: drop-shadow(2px 4px 6px black);
+}
+.scroll_right{
+	background-color: rgb(208, 201, 203);
+    width: 130px;
+    height: 33px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    margin: 20px; 
+}
+.scroll_right:hover, .scroll_right:focus{
+	background-color: gray;
+	border: none;
+	outline: none;
+}
+#block6{
+	min-height: 500px;
+	text-align: center;
+	justify-content: center;
+	background-color: #26e852;
+	align-content: center;
+	background-position: center;
+}
+.vl{
+	height: 70px;
+	margin: 10px auto;
+	width: 2px;
+	background-color: #000;
+}
+#block6 img:hover{
+	filter: drop-shadow(0 0 3px black);
+}
+.socicons{
+	background-color: #c3cdd4f2;
+	border-radius: 15px;
+	justify-content: space-around;
+	display: flex;
+	width: 70px;
+	height: 25px;
+	align-items: center;
+	margin-left: 25px;
+	margin-bottom: 20px;
+}
+.socicons .fa-twitter-square{
+    color: #00aced;
+}
+.socicons .fa-baseball-ball{
+	color: red; 
+}
+.socicons .fa-closed-captioning{
+	color: green; 
+}
+.butn{
+	width: 100%;
+	height: 100px;
+	background-color: #33b952;
+}
+#block7{
+	text-align: center;
+	justify-content: center;
+	background-color: #080808c9;
+	align-content: center;
+	background-position: center;
+}
+
+footer{
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+footer button{
+	height: 30px;
+	margin-left: 0;
+	padding: 4px!important;
+}
+footer img{
+	height: 70px;
+
+}
+form{
+	margin-top: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 0;
+}
+form input{display: flex;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 5px auto;
+	background-color: #80808059; 
+	border: none;
+	outline: none;
+}
+form button{
+	margin: 0!important; 
+}
+footer input[type=text]{
+	height:80px;
+}
+.info{
+background-color: #080808d9;
+padding: 20px; 
+}
+.info img{
+	width: 100px;
+	filter: brightness(0.5);
+}
+.inf{
+	height: 25px;
+	background-color: black;
+}
+.inf p{
+	color: white;
+	font-size: 16px;
+}
+.inf p i{
+	color: red; 
+}
